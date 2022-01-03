@@ -1,0 +1,7 @@
+{
+	"name": "Example 1", 
+	"description": "Example 1 Gnome Extension - shows the date and time",
+	"shell-version": ["41.1"], 
+	"uuid": "example1@example1.com", 
+	"version": 1
+}
