@@ -1,0 +1,7 @@
+{
+	"name": "Example 2", 
+	"description": "Example 2 Gnome Extension - makes translate using gettext.",
+	"shell-version": ["41.1"], 
+	"uuid": "example2@example2.com", 
+	"version": 1
+}

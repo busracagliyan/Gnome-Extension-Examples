@@ -1,0 +1,29 @@
+# English translations for example package.
+# Copyright (C) 2021 THE example'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the example package.
+# Büşra Çağlıyan <busra@cagliyan.pardus.net.tr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: example 2@example2.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-15 16:57+0300\n"
+"PO-Revision-Date: 2021-12-15 17:01+0300\n"
+"Last-Translator: Büşra Çağlıyan <busra@cagliyan.pardus.net.tr>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension.js:9
+msgid "hallo mein Freund"
+msgstr "hello my friend"
+
+#: extension.js:10
+#, javascript-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "one item"
+msgstr[1] "so many items like %d items"
