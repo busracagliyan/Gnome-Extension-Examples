@@ -1,0 +1,7 @@
+{
+    "name":"Hide Text ",
+    "description": "hides text next to activities in the top panel",
+    "shell-version": ["41.1"],
+    "uuid":"hidetext@hidetext.com",
+    "version": 1
+}
