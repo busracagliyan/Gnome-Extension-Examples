@@ -1,0 +1,9 @@
+{
+    "name":"Bottom Panel",
+    "description":"moves the top panel to the bottom panel",
+    "shell-version":[
+        "41.1"
+    ],
+    "uuid":"bottompanel@bottompanel.com",
+    "version": 1
+}
