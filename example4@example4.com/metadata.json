@@ -1,0 +1,7 @@
+{
+    "name":"Example 4",
+    "description":"Example 4 Gnome Extension - makes transparent notification.",
+    "shell-version":["41.1"],
+    "uuid":"example4@example4.com",
+    "version": 1
+}
