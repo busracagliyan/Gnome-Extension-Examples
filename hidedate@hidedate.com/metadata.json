@@ -1,0 +1,9 @@
+
+{
+    "name": "Hide Date",
+    "description": "hides date and clocks",
+    "uuid": "hidedate@hidedate.com",
+    "url": "",
+    "shell-version": ["40", "41"],
+    "version": 1
+  }
