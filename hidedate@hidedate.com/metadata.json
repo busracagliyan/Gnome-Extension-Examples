@@ -1,9 +1,13 @@
-
 {
-    "name": "Hide Date",
-    "description": "hides date and clocks",
-    "uuid": "hidedate@hidedate.com",
-    "url": "",
-    "shell-version": ["40", "41"],
-    "version": 1
-  }
+  "name": "Hide Date",
+  "description": "hides date and clocks",
+  "shell-version": [
+    "3.30",
+    "3.38",
+    "40",
+    "41"
+  ],
+  "url": "https://github.com/busracagliyan/Gnome-Extension-Examples/tree/main/hidedate%40hidedate.com",
+  "uuid": "hidedate@hidedate.com",
+  "version": 3
+}
