@@ -1,20 +1,22 @@
 const Main = imports.ui.main;
+const Panel = Main.panel;
 
-class Extension{
-  constructor(){
-    this.dateMenu = Main.panel.statusArea.dateMenu;
-  }
+let dateMenu = Panel.statusArea.dateMenu;
+let hiding;
 
-  enable() {
-    this.dateMenu.hide();
-  }
+function enable() {
+      dateMenu.container.hide();
+      hiding = dateMenu.actor.connect('notify::visible', actor => {
+        actor.hide()
+      })
+}
 
-  disable() {
-    this.dateMenu.show();
-  }
-  
+function disable() {
+	if(hiding){
+		dateMenu.actor.disconnect(hiding);
+	}
+    	dateMenu.container.show();
 }
 
 function init() {
-  return new Extension;
 }
