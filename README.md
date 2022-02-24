@@ -1,1 +1,1 @@
-# Gnome-Extension-Examples
+# Gnome-Shell Extension Examples
