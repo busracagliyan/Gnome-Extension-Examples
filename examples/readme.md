@@ -181,8 +181,8 @@ function disable() {
 
 Son olarak alt+f2 yapıp r komutunu çalıştıralım. İnce ayarlar uygulamasına baktığımızda eklentimizin isminin orada olduğunu göreceğiz.
 
-![alt text](http://url/to/example.drawio.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/example.drawio.png)
 
 Artık eklentimiz çalışır konumda. 
 
-![alt text](http://url/to/screenshot.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot.png)
