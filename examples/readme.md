@@ -185,4 +185,4 @@ Son olarak alt+f2 yapıp r komutunu çalıştıralım. İnce ayarlar uygulaması
 
 Artık eklentimiz çalışır konumda. 
 
-![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot1.png)
