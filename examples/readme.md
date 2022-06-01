@@ -194,7 +194,7 @@ Artık eklentimiz çalışır konumda.
 İkinci bir yol ise komut satırından gnome-shell eklentisi oluşturmak. Bunun için uç birime 
 
 ```
-gnome-extensions create –interactive
+gnome-extensions create –-interactive
 ```
 
 yazıp çalıştırıyoruz.  
