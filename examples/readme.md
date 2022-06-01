@@ -8,7 +8,7 @@ Metadata.json dosyası eklenti bilgilerinin olduğu dosyadır. Aşağıda göste
  
 ### metadata.json 
  
-```
+```json
 { 
     "uuid": "example@example.com", 
     "name": "Example", 
@@ -30,7 +30,7 @@ metadata.json dosyamızı oluşturduktan sonra extension.js dosyamızı oluştur
 
 ### extension.js  
 
-```
+```js
 'use strict'; 
 
 const ExtensionUtils = imports.misc.extensionUtils; 
@@ -51,7 +51,7 @@ function disable() {
 
 extension.js dosyamızın iskelet hali yukarıdaki gibidir. Şimdi dosyamıza ilk olarak kullanacağımız kütüphaneleri ekleyelim. 
 
-```
+```js
 'use strict';  
 
 const {Gio, GLib, GObject, St} = imports.gi;  
@@ -77,7 +77,7 @@ function disable() {
 
 Şimdi eklentimiz için ikon ekleyelim.
 
-```
+```js
 'use strict'; 
 
 const {Gio, GLib, GObject, St} = imports.gi; 
@@ -127,7 +127,7 @@ function disable() {
 
 Daha sonra eklentimize popup menu ekleyip bildirim oluşturalım. 
 
-```
+```js
 'use strict'; 
 
 const {Gio, GLib, GObject, St} = imports.gi; 
@@ -193,7 +193,9 @@ Artık eklentimiz çalışır konumda.
 
 İkinci bir yol ise komut satırından gnome-shell eklentisi oluşturmak. Bunun için uç birime 
 
-```gnome-extensions create –interactive```
+```
+gnome-extensions create –interactive
+```
 
 yazıp çalıştırıyoruz.  
 
