@@ -1,8 +1,10 @@
+## Gnome-Shell Eklentisi Nasıl Oluşturulur?
+
 Bu yazımızda pardus 21’in gnome masaüstü için basit bir gnome-shell eklentisi yapmayı öğreneceğiz. Eklentimiz panele ikon ekleyecek ve ikona tıkladığımızda açılan popup menu bize bildirim gönderecek. 
 
 İlk olarak home klasörüne giriyoruz ve ctrl+h yapıp gizli dosyaları açıyoruz. Daha sonra .local/share/gnome-shell/extensions dizin konumuna giriyoruz. Burada extensions klasöründe example@example.com isimli yeni bir klasör oluşturuyoruz. Bu klasörün içerisinde extension.js ve metadata.json dosyalarını oluşturuyoruz. 
  
-Metadata.json dosyası eklenti bilgilerinin olduğu dosyadır.
+Metadata.json dosyası eklenti bilgilerinin olduğu dosyadır. Aşağıda gösterildiği gibi yazılır.
  
 ### metadata.json 
  
@@ -123,7 +125,7 @@ function disable() {
 } 
 ```
 
-Son olarak da eklentimize popup menu ekleyip bildirim oluşturalım. 
+Daha sonra eklentimize popup menu ekleyip bildirim oluşturalım. 
 
 ```
 'use strict'; 
@@ -179,10 +181,34 @@ function disable() {
 }
 ```
 
-Son olarak alt+f2 yapıp r komutunu çalıştıralım. İnce ayarlar uygulamasına baktığımızda eklentimizin isminin orada olduğunu göreceğiz.
+Son olarak da alt+f2 yapıp r komutunu çalıştıralım. İnce ayarlar uygulamasına baktığımızda eklentimizin isminin orada olduğunu göreceğiz.
 
 ![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/example.drawio.png)
 
 Artık eklentimiz çalışır konumda. 
 
 ![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot1.png)
+
+------
+
+İkinci bir yol ise komut satırından gnome-shell eklentisi oluşturmak. Bunun için uç birime 
+
+```gnome-extensions create –interactive```
+
+yazıp çalıştırıyoruz.  
+
+İlk olarak eklentimizin ismini giriyoruz.
+
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot2.png)
+
+Sonra eklentimizin açıklamasını giriyoruz.
+
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot3.png)
+
+En son olarak da uuid'yi girip bitiriyoruz.
+
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/examples/screenshot4.png)
+
+Şimdi eklentimizin iskelet kodu hazır. Yukarıda yaptığımız gibi extension.js dosyasına kodu yazıyoruz ve  alt + f2 yapıp eklentimizi çalıştırıyoruz.
+
+Daha fazla bilgi için [Gnome Wiki](https://wiki.gnome.org/Projects/GnomeShell/Extensions) sayfasını ziyaret ediniz.
