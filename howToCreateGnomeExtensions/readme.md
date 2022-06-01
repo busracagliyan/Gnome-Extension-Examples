@@ -1,6 +1,6 @@
 ## Gnome-Shell Eklentisi Nasıl Oluşturulur?
 
-Bu yazımızda Pardus 21’in gnome masaüstü için basit bir gnome-shell eklentisi yapmayı öğreneceğiz. Eklentimiz panele ikon ekleyecek ve ikona tıkladığımızda açılan popup menu bize bildirim gönderecek. 
+Bu yazıda Pardus 21’in gnome masaüstü için basit bir gnome-shell eklentisi yapmayı öğreneceğiz. Eklentimiz panele ikon ekleyecek ve ikona tıkladığımızda açılan popup menu bize bildirim gönderecek. 
 
 İlk olarak home klasörüne giriyoruz ve ctrl+h yapıp gizli dosyaları açıyoruz. Daha sonra .local/share/gnome-shell/extensions dizin konumuna giriyoruz. Burada extensions klasöründe example@example.com isimli yeni bir klasör oluşturuyoruz. Bu klasörün içerisinde extension.js ve metadata.json dosyalarını oluşturuyoruz. 
  
