@@ -183,11 +183,11 @@ function disable() {
 
 Son olarak da alt+f2 yapıp r komutunu çalıştıralım. İnce ayarlar uygulamasına baktığımızda eklentimizin isminin orada olduğunu göreceğiz.
 
-![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/howToCreateGnomeExtensions/example.drawio.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/f6323778a235445fe1ec54966af0763fb3b0356f/howToCreateGnomeExtensions/example.drawio.png)
 
 Artık eklentimiz çalışır konumda. 
 
-![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/howToCreateGnomeExtensions/screenshot1.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/f6323778a235445fe1ec54966af0763fb3b0356f/howToCreateGnomeExtensions/screenshot1.png)
 
 ------
 
@@ -201,15 +201,15 @@ yazıp çalıştırıyoruz.
 
 İlk olarak eklentimizin ismini giriyoruz.
 
-![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/howToCreateGnomeExtensions/screenshot2.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/f6323778a235445fe1ec54966af0763fb3b0356f/howToCreateGnomeExtensions/screenshot2.png)
 
 Sonra eklentimizin açıklamasını giriyoruz.
 
-![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/howToCreateGnomeExtensions/screenshot3.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/f6323778a235445fe1ec54966af0763fb3b0356f/howToCreateGnomeExtensions/screenshot3.png)
 
 En son olarak da uuid'yi girip bitiriyoruz.
 
-![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/main/howToCreateGnomeExtensions/screenshot4.png)
+![alt text](https://github.com/busracagliyan/Gnome-Extension-Examples/blob/f6323778a235445fe1ec54966af0763fb3b0356f/howToCreateGnomeExtensions/screenshot4.png)
 
 Şimdi eklentimizin iskelet kodu hazır. Yukarıda yaptığımız gibi extension.js dosyasına kodu yazıyoruz ve  alt + f2 yapıp eklentimizi çalıştırıyoruz.
 
