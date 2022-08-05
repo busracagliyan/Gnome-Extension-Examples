@@ -179,11 +179,11 @@ Daha sonra eklentimize popup menu ekleyip bildirim oluşturalım.
 
 Son olarak da alt+f2 yapıp r komutunu çalıştıralım. İnce ayarlar uygulamasına baktığımızda eklentimizin isminin orada olduğunu göreceğiz.
 
-![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/blob/main/assets/example.drawio.png)
+![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/assets/example.drawio.png)
 
 Artık eklentimiz çalışır konumda.
 
-![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/blob/main/assets/screenshot1.png)
+![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/assets/screenshot1.png)
 
 * * *
 
@@ -196,15 +196,15 @@ yazıp çalıştırıyoruz.
 
 İlk olarak eklentimizin ismini giriyoruz.
 
-![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/blob/main/assets/screenshot2.png)
+![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/assets/screenshot2.png)
 
 Sonra eklentimizin açıklamasını giriyoruz.
 
-![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/blob/main/assets/screenshot3.png)
+![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/assets/screenshot3.png)
 
 En son olarak da uuid'yi girip bitiriyoruz.
 
-![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/blob/main/assets/screenshot4.png)
+![alt text](https://busracagliyan.github.io/Gnome-Extension-Examples/assets/screenshot4.png)
 
 Şimdi eklentimizin iskelet kodu hazır. Yukarıda yaptığımız gibi extension.js dosyasına kodu yazıyoruz ve alt + f2 yapıp eklentimizi çalıştırıyoruz.
 
